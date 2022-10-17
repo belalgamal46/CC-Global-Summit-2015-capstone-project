@@ -38,7 +38,7 @@
   git clone https://github.com/AdnanOlarmmi/Technopreneur.git
   ```
 
-  - Navigate to the location of the folder in your machine:
+- Navigate to the location of the folder in your machine:
 
   **`you@your-Pc-name:~$ cd <folder>`**
 
