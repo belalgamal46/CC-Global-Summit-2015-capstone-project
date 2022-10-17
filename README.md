@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-#
+# Creative Commns Global Summit 2015
 
 > This is an event website talking about creative commns global summit year 2015. It is also a capstone project for microverse students to practice what they have learned
 
