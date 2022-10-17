@@ -19,20 +19,66 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy of this project up and running on your local machine follow the steps below.**
 
 ### Prerequisites
 
-Clone repo
-**git clone https://github.com/belalgamal46/Hello-Microverse.git**
+- Basic html, css and medium Javascript know how.
+- Git installation
+- A text editor
+- A terminal
+- A web browser to view output e.g Google Chrome
+- An IDE e.g Visual studio code
 
-### Install
+### Setup
 
-to install packages
-**npm install**
+- Clone this repository or download the Zip folder:
+
+  ```
+  git clone https://github.com/AdnanOlarmmi/Technopreneur.git
+  ```
+
+  - Navigate to the location of the folder in your machine:
+
+**`you@your-Pc-name:~$ cd <folder>`**
+
+### Usage
+
+- After Cloning this repo to your local machine
+- Open the `index.html` in your browser
+
+### Run Tests
+
+To track linter errors locally follow these steps:
+
+Download all the dependencies run:
+
+```
+npm install
+```
+
+Track HTML linter errors run:
+
+```
+npx hint .
+```
+
+Track CSS linter errors run:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+Track JavaScript linter errors run:
+
+```
+npx eslint .
+```
+
+### Deployment
+
+- I used GitHub Pages to deploy my website
+- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
 
 ## Authors
 
@@ -41,13 +87,19 @@ to install packages
 - GitHub: [@githubhandle](https://github.com/belalgamal46)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/belal-gamal-79b8a2133/)
 
+## Credits
+
+- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Project from [Microverse](https://bit.ly/MicroverseTN) html & css module.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Technopreneur/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 
