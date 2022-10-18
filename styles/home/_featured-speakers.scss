@@ -1,0 +1,42 @@
+#featured-speakers {
+  @include flex-center(column);
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+
+.speaker-container {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.speaker-image {
+  img {
+    width: 100%;
+  }
+}
+
+.speaker-details {
+  @include flex-center(column);
+  align-items: flex-start;
+  width: 100%;
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    i {
+      color: $red;
+    }
+  }
+
+  hr {
+    width: 10%;
+    border: none;
+    height: 1px;
+    background-color: $light-grey;
+    margin-bottom: 0.8rem;
+  }
+}

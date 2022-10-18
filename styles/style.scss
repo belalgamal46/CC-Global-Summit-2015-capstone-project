@@ -1,10 +1,3 @@
-@import './global-style';
-@import './home/hero-section';
-@import './home/main-program';
-@import './home/navbar';
-@import './home/partners';
-@import './home/footer';
-
 * {
   padding: 0;
   margin: 0;
@@ -16,3 +9,11 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+@import './global-style';
+@import './home/hero-section';
+@import './home/main-program';
+@import './home/navbar';
+@import './home/partners';
+@import './home/footer';
+@import './home/featured-speakers';
