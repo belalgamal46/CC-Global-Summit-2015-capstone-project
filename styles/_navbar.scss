@@ -1,7 +1,10 @@
+nav {
+  display: none;
+}
+
 .navbar-container {
   background-color: $dark-grey;
   color: white;
-  display: none;
 
   ul {
     display: flex;
@@ -15,7 +18,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar-container {
-    display: initial;
+  nav {
+    display: block;
   }
 }

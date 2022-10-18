@@ -1,14 +1,3 @@
-.navbar-container {
-  background-color: #272a31;
-  color: white;
-}
-.navbar-container ul {
-  display: flex;
-  list-style: none;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
-}
-
 #hero-section {
   background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
@@ -63,7 +52,6 @@
   justify-content: space-evenly;
   color: white;
   background-color: #272a31;
-  height: 100vh;
   background-image: url("../images/pattern_bg.png");
 }
 
@@ -73,10 +61,12 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin: 2rem 0;
+  color: white;
 }
 .main-program-title h5 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 .main-program-title span {
   width: 10%;
@@ -90,6 +80,8 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin: 3rem;
+  padding: 0 3rem;
 }
 .button button {
   background-color: #ec5242;
@@ -129,6 +121,70 @@
 .cards-container article p {
   flex-grow: 1;
   font-size: 1.4rem;
+}
+
+nav {
+  display: none;
+}
+
+.navbar-container {
+  background-color: #272a31;
+  color: white;
+}
+.navbar-container ul {
+  display: flex;
+  list-style: none;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  justify-content: flex-end;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: block;
+  }
+}
+#partners-section {
+  background-color: #272a31;
+}
+
+.partners-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+  color: white;
+  margin: 0;
+  padding: 2rem;
+}
+.partners-title h5 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.partners-title span {
+  width: 10%;
+  height: 2rem;
+  border-bottom: 0.1px solid #ec5242;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  height: 30vh;
+}
+.images-container img {
+  width: 25%;
+  padding: 0.3rem;
 }
 
 * {

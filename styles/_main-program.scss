@@ -3,31 +3,18 @@
   justify-content: space-evenly;
   color: white;
   background-color: $dark-grey;
-  height: 100vh;
   background-image: url('../images/pattern_bg.png');
 }
 
 .main-program-title {
-  @include flex-center(column);
-  width: 100%;
-  // height: 20vh;
-
-  h5 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-
-  span {
-    width: 10%;
-    height: 2rem;
-    border-bottom: 0.1px solid $red;
-  }
+  @include title-container();
 }
 
 .button {
   @include flex-center(column);
   width: 100%;
-  // height: 20vh;
+  margin: 3rem;
+  padding: 0 3rem;
 
   button {
     background-color: $red;

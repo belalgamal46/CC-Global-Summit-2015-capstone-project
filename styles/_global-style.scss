@@ -10,3 +10,21 @@ $rgba-light-grey: rgba(211, 211, 211, 0.1);
   align-items: center;
   flex-direction: $direction;
 }
+
+@mixin title-container {
+  @include flex-center(column);
+  width: 100%;
+  margin: 2rem 0;
+  color: white;
+
+  h5 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  span {
+    width: 10%;
+    height: 2rem;
+    border-bottom: 0.1px solid $red;
+  }
+}
