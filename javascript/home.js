@@ -30,6 +30,7 @@ for (let i = 0; i < data.length; i += 1) {
 }
 
 const openMobileMenu = () => {
+  console.log('clicked');
   mobileNavbar.style.transform = 'translateX(0)';
 };
 const closeMobileMenu = () => {
