@@ -1,0 +1,19 @@
+footer {
+  @include flex-center(row);
+  height: 15vh;
+  column-gap: 4rem;
+  padding: 3rem;
+}
+
+.footer-image {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.footer-text {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+}

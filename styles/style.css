@@ -187,6 +187,30 @@ nav {
   padding: 0.3rem;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 15vh;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  padding: 3rem;
+}
+
+.footer-image {
+  width: 100%;
+}
+.footer-image img {
+  width: 100%;
+}
+
+.footer-text {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 * {
   padding: 0;
   margin: 0;
