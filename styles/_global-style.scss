@@ -13,6 +13,7 @@ $rgba-light-grey: rgba(211, 211, 211, 0.1);
 
 @mixin title-container {
   @include flex-center(column);
+
   width: 100%;
   margin: 2rem 0;
   color: white;

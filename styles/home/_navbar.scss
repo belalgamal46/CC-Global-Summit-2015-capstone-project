@@ -23,7 +23,9 @@
   height: 100%;
   z-index: 10;
   background-color: $dark-grey;
+
   @include flex-center(column);
+
   justify-content: initial;
   align-items: flex-end;
   padding: 2rem;
@@ -44,6 +46,7 @@
 
   ul {
     @include flex-center(column);
+
     row-gap: 5rem;
     list-style: none;
     margin: auto;

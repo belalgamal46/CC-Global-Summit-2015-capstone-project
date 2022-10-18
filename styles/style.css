@@ -21,17 +21,6 @@ html {
   width: 90%;
   margin: auto;
 }
-#hero-section .message {
-  background-color: #d3d3d3;
-  border: 4px solid white;
-  padding: 1rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-#hero-section .message p {
-  font-size: 1.3rem;
-  line-height: 150%;
-}
 
 .menu-icon-container {
   width: 13%;
@@ -41,6 +30,18 @@ html {
 .menu-icon-container #menu-icon {
   width: 100%;
   padding: 0.6rem;
+}
+
+.message {
+  background-color: #d3d3d3;
+  border: 4px solid white;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.message p {
+  font-size: 1.3rem;
+  line-height: 150%;
 }
 
 .location {

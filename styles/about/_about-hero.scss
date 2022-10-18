@@ -1,1 +1,40 @@
+#hero-section {
+  text-align: center;
+}
 
+.hero-title {
+  color: $red;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+}
+
+.message {
+  background-color: white;
+  border-color: $light-grey;
+  border-width: 1px;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  font-size: 1.3rem;
+
+  p {
+    width: 90%;
+    margin: auto;
+    line-height: 2rem;
+  }
+
+  h4 {
+    margin-top: 1rem;
+    text-decoration: underline;
+  }
+}
