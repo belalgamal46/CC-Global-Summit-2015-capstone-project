@@ -1,0 +1,144 @@
+.navbar-container {
+  background-color: #272a31;
+  color: white;
+}
+.navbar-container ul {
+  display: flex;
+  list-style: none;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+#hero-section {
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 3.5% 5% 15% 5%;
+}
+#hero-section img {
+  width: 90%;
+  margin: auto;
+}
+#hero-section .message {
+  background-color: #d3d3d3;
+  border: 4px solid white;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+#hero-section .message p {
+  font-size: 1.3rem;
+  line-height: 150%;
+}
+
+.menu-icon-container {
+  width: 13%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.menu-icon-container #menu-icon {
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.location {
+  color: #272a31;
+}
+.location h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.location p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#main-program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  background-color: #272a31;
+  height: 100vh;
+  background-image: url("../images/pattern_bg.png");
+}
+
+.main-program-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.main-program-title h5 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main-program-title span {
+  width: 10%;
+  height: 2rem;
+  border-bottom: 0.1px solid #ec5242;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.button button {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2.5rem 4rem;
+}
+.button button:active {
+  background-color: #d14434;
+}
+
+.cards-container {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.cards-container article {
+  width: 100%;
+  display: grid;
+  background-color: rgba(211, 211, 211, 0.1);
+  align-items: center;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  grid-template-columns: 0.5fr 1fr 2fr;
+  padding: 1rem;
+}
+.cards-container article h2 {
+  font-size: 1.6rem;
+  flex-grow: 2;
+}
+.cards-container article p {
+  flex-grow: 1;
+  font-size: 1.4rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=style.css.map */

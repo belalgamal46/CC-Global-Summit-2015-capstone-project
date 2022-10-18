@@ -1,0 +1,12 @@
+$dark-grey: #272a31;
+$red: #ec5242;
+$red-hover: #d14434;
+$light-grey: #d3d3d3;
+$rgba-light-grey: rgba(211, 211, 211, 0.1);
+
+@mixin flex-center($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
