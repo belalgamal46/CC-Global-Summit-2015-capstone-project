@@ -1,9 +1,9 @@
 @import './global-style';
-@import './hero-section';
-@import './main-program';
-@import './navbar';
-@import './partners';
-@import './footer';
+@import './home/hero-section';
+@import './home/main-program';
+@import './home/navbar';
+@import './home/partners';
+@import './home/footer';
 
 * {
   padding: 0;
