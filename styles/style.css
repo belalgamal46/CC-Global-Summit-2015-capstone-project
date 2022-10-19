@@ -76,14 +76,11 @@ html {
   .menu-icon-container #menu-icon {
     width: 50%;
   }
+  .hero-image img {
+    width: 75%;
+  }
   .message p {
-    font-size: 2.3rem;
-  }
-  .location h2 {
-    font-size: 6rem;
-  }
-  .location p {
-    font-size: 3.1rem;
+    font-size: 1.8rem;
   }
 }
 #main-program {

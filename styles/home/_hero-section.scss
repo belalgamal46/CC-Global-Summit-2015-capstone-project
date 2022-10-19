@@ -83,19 +83,15 @@
     }
   }
 
-  .message {
-    p {
-      font-size: 2.3rem;
+  .hero-image {
+    img {
+      width: 75%;
     }
   }
 
-  .location {
-    h2 {
-      font-size: 6rem;
-    }
-
+  .message {
     p {
-      font-size: 3.1rem;
+      font-size: 1.8rem;
     }
   }
 }
