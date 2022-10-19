@@ -1,12 +1,12 @@
 #partners-section {
   background-color: $dark-grey;
+  height: 32vh;
 }
 
 .partners-title {
   @include title-container();
-
   margin: 0;
-  padding: 2rem;
+  height: 12vh;
 }
 
 .images-container {
@@ -14,10 +14,29 @@
 
   flex-wrap: wrap;
   column-gap: 2rem;
-  height: 30vh;
+  height: 20vh;
 
   img {
     width: 25%;
     padding: 0.3rem;
+    filter: grayscale(100%);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #partners-section {
+    height: 22vh;
+  }
+
+  .partners-title {
+    height: 10vh;
+  }
+
+  .images-container {
+    height: 10vh;
+
+    img {
+      width: 15%;
+    }
   }
 }
