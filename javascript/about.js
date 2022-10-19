@@ -1,6 +1,8 @@
 const menuIconContainer = document.querySelector('.menu-icon-container');
 const mobileNavbar = document.querySelector('.mobile-navbar');
 const closeButtonContaienr = document.querySelector('.close-button-contaienr');
+const activePage = window.location.href;
+const navLinks = document.querySelectorAll('.navbar ul li a');
 
 const openMobileMenu = () => {
   console.log('clicked');
@@ -12,3 +14,10 @@ const closeMobileMenu = () => {
 
 menuIconContainer.addEventListener('click', openMobileMenu);
 closeButtonContaienr.addEventListener('click', closeMobileMenu);
+
+navLinks.forEach((link) => {
+  if (link.href === activePage) {
+    link.classList.add('active');
+    // console.log('tre');
+  }
+});

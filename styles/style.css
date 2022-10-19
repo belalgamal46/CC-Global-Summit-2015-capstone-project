@@ -77,10 +77,43 @@ html {
     width: 50%;
   }
   .hero-image img {
-    width: 75%;
+    width: 70%;
+  }
+  .message {
+    width: 65%;
   }
   .message p {
-    font-size: 1.8rem;
+    font-size: 2rem;
+  }
+  .location h2 {
+    font-size: 4.5rem;
+  }
+  .location p {
+    font-size: 2.3rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #hero-section {
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .menu-icon-container {
+    display: none;
+  }
+  .hero-container {
+    width: 60%;
+  }
+  .hero-image img {
+    width: 65%;
+  }
+  .message {
+    width: 55%;
+    margin-top: 2.5rem;
+    margin-bottom: 3.2rem;
   }
 }
 #main-program {
@@ -267,9 +300,12 @@ html {
   -moz-column-gap: 50px;
        column-gap: 50px;
   justify-content: flex-end;
+  align-items: center;
   padding: 1rem;
-  width: 80%;
+  width: 77%;
   margin: auto;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .mobile-navbar {
@@ -318,6 +354,54 @@ html {
   color: #d3d3d3;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+}
+.navbar ul li {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar ul li:last-child {
+  border: 4px solid #ec5242;
+  padding: 1rem;
+}
+.navbar ul li:last-child a {
+  color: #ec5242;
+}
+
+.active {
+  color: #ec5242 !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .desktop-navbar {
+    display: initial;
+  }
+  .navbar-container {
+    height: 4vh;
+  }
+  .navbar {
+    height: 10vh;
+  }
+}
 #partners-section {
   background-color: #272a31;
 }
