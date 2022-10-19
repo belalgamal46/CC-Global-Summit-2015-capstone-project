@@ -417,7 +417,11 @@ html {
     display: initial;
   }
   .navbar-container {
-    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 5vh;
   }
   .navbar {
     height: 10vh;
@@ -480,7 +484,11 @@ html {
 
 @media only screen and (min-width: 1024px) {
   #partners-section {
-    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
   }
   .partners-title {
     height: 10vh;

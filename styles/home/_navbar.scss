@@ -109,7 +109,9 @@
   }
 
   .navbar-container {
-    height: 4vh;
+    @include flex-center(row);
+
+    height: 5vh;
   }
 
   .navbar {

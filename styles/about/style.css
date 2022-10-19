@@ -35,13 +35,65 @@
   text-decoration: underline;
 }
 
+@media only screen and (min-width: 500px) {
+  .hero-title h2 {
+    font-size: 3rem;
+  }
+  .hero-title h1 {
+    font-size: 4rem;
+  }
+  .message p {
+    font-size: 2 rem;
+  }
+  .contact p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero-title h2 {
+    font-size: 3rem;
+  }
+  .hero-title h1 {
+    font-size: 5rem;
+    width: 78%;
+    margin: auto;
+  }
+  .message {
+    width: 80%;
+    margin: 4rem auto;
+  }
+  .contact p {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero-title h2 {
+    font-size: 4rem;
+  }
+  .hero-title h1 {
+    font-size: 6.5rem;
+    width: 60%;
+    margin: auto;
+  }
+  .message {
+    width: 40%;
+    margin: 4rem auto;
+  }
+  .message p {
+    font-size: 2rem;
+  }
+  .contact p {
+    font-size: 1.8rem;
+  }
+}
 #logo-creation {
   text-align: center;
+  margin-top: 4rem;
 }
 #logo-creation p {
   width: 80%;
   margin: auto;
-  margin-bottom: 4rem;
+  margin: 4rem auto;
   font-weight: 400;
   font-size: 1.3rem;
 }
@@ -55,6 +107,7 @@
   margin: 2rem 0;
   color: white;
   color: #000;
+  margin: 0;
 }
 .logo-creation-title h5 {
   font-size: 2rem;
@@ -91,6 +144,29 @@
   width: 100%;
 }
 
+@media only screen and (min-width: 500px) {
+  .summit-logo img {
+    width: 80%;
+  }
+  #logo-creation p {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .summit-logo img {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #logo-creation p {
+    font-size: 2rem;
+    width: 30%;
+    margin: 4rem auto;
+  }
+  .summit-logo img {
+    width: 30%;
+  }
+}
 hr {
   height: 1px;
   background-color: #d3d3d3;
@@ -100,7 +176,7 @@ hr {
 }
 
 .previous-global-summits {
-  height: 75vh;
+  margin-bottom: 5rem;
   text-align: center;
 }
 .previous-global-summits p {
@@ -151,4 +227,35 @@ hr {
 .previous-global-summits-image-container img {
   width: 100%;
   margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .previous-global-summits p {
+    width: 70%;
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .previous-global-summits-image-container {
+    width: 54%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .previous-global-summits p {
+    width: 30%;
+    font-size: 2rem;
+    margin-bottom: 10rem;
+  }
+  .previous-global-summits-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+  .previous-global-summits-image-container img {
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=style.css.map */

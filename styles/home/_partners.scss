@@ -25,7 +25,9 @@
 
 @media only screen and (min-width: 1024px) {
   #partners-section {
-    height: 22vh;
+    @include flex-center(column);
+
+    row-gap: 2rem;
   }
 
   .partners-title {
