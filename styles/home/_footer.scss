@@ -19,3 +19,15 @@ footer {
   font-size: 1rem;
   font-weight: 400;
 }
+
+@media only screen and (min-width: 500px) {
+  .footer-image {
+    img {
+      width: 70%;
+    }
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}

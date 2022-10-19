@@ -13,7 +13,7 @@ const data = [
 
   {
     name: 'SohYeong Noh',
-    image: './images/speaker_02.png',
+    image: './images/speaker_03.png',
     alt: 'speaker-02',
     text: {
       italicText: 'Director of Art Center Nabi and a board member of CC Korea',
@@ -24,8 +24,8 @@ const data = [
 
   {
     name: 'Lila Tretikov',
-    image: './images/speaker_03.png',
-    alt: 'speaker-03',
+    image: './images/speaker_05.png',
+    alt: 'speaker-05',
     text: {
       italicText: 'Executive Director of the Wikimedia Foundation',
       normalText:
@@ -35,7 +35,7 @@ const data = [
 
   {
     name: 'Kilnam Chon',
-    image: './images/speaker_04.png',
+    image: './images/speaker_02.png',
     alt: 'speaker-04',
     text: {
       italicText: '',
@@ -46,7 +46,7 @@ const data = [
 
   {
     name: 'Julia Leda',
-    image: './images/speaker_05.png',
+    image: './images/speaker_04.png',
     alt: 'speaker-05',
     text: {
       italicText: 'President of Young Pirates of Europe',

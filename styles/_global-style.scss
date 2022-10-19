@@ -28,4 +28,14 @@ $rgba-light-grey: rgba(211, 211, 211, 0.1);
     height: 2rem;
     border-bottom: 0.1px solid $red;
   }
+
+  @media only screen and (min-width: 600px) {
+    h5 {
+      font-size: 2.5rem;
+    }
+
+    span {
+      width: 5%;
+    }
+  }
 }

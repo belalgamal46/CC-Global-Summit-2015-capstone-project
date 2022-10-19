@@ -65,6 +65,14 @@
   height: 2rem;
   border-bottom: 0.1px solid #ec5242;
 }
+@media only screen and (min-width: 600px) {
+  .logo-creation-title h5 {
+    font-size: 2.5rem;
+  }
+  .logo-creation-title span {
+    width: 5%;
+  }
+}
 .logo-creation-title h5 {
   width: 62%;
   margin: auto;
@@ -116,6 +124,14 @@ hr {
   width: 10%;
   height: 2rem;
   border-bottom: 0.1px solid #ec5242;
+}
+@media only screen and (min-width: 600px) {
+  .previous-global-summits-title h5 {
+    font-size: 2.5rem;
+  }
+  .previous-global-summits-title span {
+    width: 5%;
+  }
 }
 
 .previous-global-summits-image-container {

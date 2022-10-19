@@ -4,11 +4,6 @@
   background-size: cover;
   background-position: center center;
   padding: 3.5% 5% 15% 5%;
-
-  img {
-    width: 90%;
-    margin: auto;
-  }
 }
 
 .menu-icon-container {
@@ -17,8 +12,15 @@
   margin-bottom: 10%;
 
   #menu-icon {
-    width: 100%;
+    width: 90%;
     padding: 0.6rem;
+    margin: auto;
+  }
+}
+
+.hero-image {
+  img {
+    width: 100%;
   }
 }
 
@@ -47,5 +49,53 @@
   p {
     font-size: 1.5rem;
     font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .menu-icon-container {
+    #menu-icon {
+      width: 70%;
+    }
+  }
+
+  .message {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  .location {
+    h2 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 2.1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-icon-container {
+    #menu-icon {
+      width: 50%;
+    }
+  }
+
+  .message {
+    p {
+      font-size: 2.3rem;
+    }
+  }
+
+  .location {
+    h2 {
+      font-size: 6rem;
+    }
+
+    p {
+      font-size: 3.1rem;
+    }
   }
 }
