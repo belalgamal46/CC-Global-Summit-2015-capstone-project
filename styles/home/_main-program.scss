@@ -134,6 +134,8 @@
       row-gap: 1rem;
       padding: 2rem;
       margin: 0;
+      transition: all 0.2s;
+      cursor: pointer;
 
       h2 {
         font-size: 2rem;
@@ -149,6 +151,25 @@
       &:last-child {
         width: 100%;
         margin: 0;
+      }
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .button {
+    button {
+      font-weight: 700;
+      background-color: transparent;
+      text-decoration: underline;
+      cursor: pointer;
+      border: none;
+
+      &:hover {
+        background-color: transparent;
+        color: $red;
       }
     }
   }

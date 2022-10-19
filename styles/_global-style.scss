@@ -2,13 +2,18 @@ $dark-grey: #272a31;
 $red: #ec5242;
 $red-hover: #d14434;
 $light-grey: #d3d3d3;
-$rgba-light-grey: rgba(211, 211, 211, 0.1);
+$rgba-light-grey: #d3d3d310;
 
 @mixin flex-center($direction) {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: $direction;
+}
+
+@mixin rgba-color($color, $opacity) {
+  color: $color;
+  opacity: $opacity;
 }
 
 @mixin title-container {
@@ -29,13 +34,19 @@ $rgba-light-grey: rgba(211, 211, 211, 0.1);
     border-bottom: 0.1px solid $red;
   }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 500px) {
     h5 {
       font-size: 2.5rem;
     }
 
     span {
-      width: 5%;
+      width: 7%;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    span {
+      width: 2.5%;
     }
   }
 }

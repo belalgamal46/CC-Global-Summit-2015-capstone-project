@@ -147,12 +147,17 @@ html {
   height: 2rem;
   border-bottom: 0.1px solid #ec5242;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .main-program-title h5 {
     font-size: 2.5rem;
   }
   .main-program-title span {
-    width: 5%;
+    width: 7%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .main-program-title span {
+    width: 2.5%;
   }
 }
 
@@ -189,7 +194,7 @@ html {
 .cards-container article {
   width: 100%;
   display: grid;
-  background-color: rgba(211, 211, 211, 0.1);
+  background-color: rgba(211, 211, 211, 0.062745098);
   align-items: center;
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -271,6 +276,8 @@ html {
     row-gap: 1rem;
     padding: 2rem;
     margin: 0;
+    transition: all 0.2s;
+    cursor: pointer;
   }
   .cards-container article h2 {
     font-size: 2rem;
@@ -284,6 +291,20 @@ html {
   .cards-container article:last-child {
     width: 100%;
     margin: 0;
+  }
+  .cards-container article:hover {
+    background-color: transparent;
+  }
+  .button button {
+    font-weight: 700;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+  }
+  .button button:hover {
+    background-color: transparent;
+    color: #ec5242;
   }
 }
 .desktop-navbar {
@@ -426,12 +447,17 @@ html {
   height: 2rem;
   border-bottom: 0.1px solid #ec5242;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .partners-title h5 {
     font-size: 2.5rem;
   }
   .partners-title span {
-    width: 5%;
+    width: 7%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .partners-title span {
+    width: 2.5%;
   }
 }
 
@@ -514,12 +540,17 @@ footer {
   height: 2rem;
   border-bottom: 0.1px solid #ec5242;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .featured-speakers-title h5 {
     font-size: 2.5rem;
   }
   .featured-speakers-title span {
-    width: 5%;
+    width: 7%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .featured-speakers-title span {
+    width: 2.5%;
   }
 }
 
@@ -561,5 +592,52 @@ footer {
 @media only screen and (min-width: 500px) {
   .speaker-details p {
     font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .speaker-details h3 {
+    font-size: 2.5rem;
+  }
+  .speaker-details p {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #featured-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    row-gap: 5rem;
+    width: 70%;
+    margin: 5rem auto;
+  }
+  .speaker-container {
+    height: 100%;
+  }
+  .speaker-container:nth-child(2) {
+    grid-column: 1/2;
+  }
+  .speaker-container:nth-child(3) {
+    grid-column: 2/3;
+  }
+  .speaker-container:nth-child(4) {
+    grid-column: 1/2;
+  }
+  .speaker-container:nth-child(5) {
+    grid-column: 2/3;
+  }
+  .speaker-container:nth-child(6) {
+    grid-column: 1/2;
+  }
+  .speaker-container:last-child {
+    grid-column: 2/3;
+  }
+  .featured-speakers-title {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .featured-speakers-title h5 {
+    font-size: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
