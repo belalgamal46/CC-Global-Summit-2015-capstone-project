@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://belalgamal46.github.io/CC-Global-Summit-2015-capstone-project/)
 
 ## Getting Started
 
