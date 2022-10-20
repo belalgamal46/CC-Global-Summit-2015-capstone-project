@@ -258,4 +258,48 @@ hr {
   .previous-global-summits-image-container img {
     cursor: pointer;
   }
+}
+@media only screen and (min-width: 200px) {
+  #partners-section {
+    display: block;
+    background-color: #272a31;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #partners-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 200px) {
+  footer {
+    display: block;
+  }
+  .desktop-footer-image {
+    display: none;
+  }
+  .mobile-footer-image {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  footer {
+    background-color: #272a31;
+  }
+  .footer-container {
+    width: 40%;
+    margin: auto;
+  }
+  .footer-image img {
+    width: 80%;
+  }
+  .footer-image .desktop-footer-image {
+    display: inline;
+  }
+  .footer-image .mobile-footer-image {
+    display: none;
+  }
+  .footer-text {
+    font-size: 1.4rem;
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */

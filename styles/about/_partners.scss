@@ -1,0 +1,12 @@
+@media only screen and (min-width: 200px) {
+  #partners-section {
+    display: block;
+    background-color: $dark-grey;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #partners-section {
+    display: none;
+  }
+}

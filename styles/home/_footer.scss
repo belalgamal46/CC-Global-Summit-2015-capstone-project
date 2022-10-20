@@ -1,4 +1,4 @@
-footer {
+.footer-container {
   @include flex-center(row);
 
   height: 15vh;
@@ -13,6 +13,10 @@ footer {
   img {
     width: 100%;
   }
+
+  .desktop-footer-image {
+    display: none;
+  }
 }
 
 .footer-text {
@@ -21,8 +25,14 @@ footer {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 200px) {
   footer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .footer-container {
     width: 75%;
     margin: auto;
   }
@@ -40,6 +50,10 @@ footer {
 
 @media only screen and (min-width: 768px) {
   footer {
+    display: initial;
+  }
+
+  .footer-container {
     width: 70%;
     margin: auto;
   }
@@ -57,6 +71,10 @@ footer {
 
 @media only screen and (min-width: 1024px) {
   footer {
+    background-color: white;
+  }
+
+  .footer-container {
     width: 40%;
     margin: auto;
   }

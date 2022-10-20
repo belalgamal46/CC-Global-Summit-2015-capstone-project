@@ -1,0 +1,43 @@
+@media only screen and (min-width: 200px) {
+  footer {
+    display: block;
+  }
+
+  .desktop-footer-image {
+    display: none;
+  }
+
+  .mobile-footer-image {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    background-color: $dark-grey;
+  }
+
+  .footer-container {
+    width: 40%;
+    margin: auto;
+  }
+
+  .footer-image {
+    img {
+      width: 80%;
+    }
+
+    .desktop-footer-image {
+      display: inline;
+    }
+
+    .mobile-footer-image {
+      display: none;
+    }
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+    color: white;
+  }
+}
