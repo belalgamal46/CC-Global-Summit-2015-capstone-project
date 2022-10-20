@@ -350,6 +350,10 @@ html {
   padding: 1rem;
 }
 
+.navbar-logo div a img {
+  width: 100%;
+}
+
 .nav-items {
   align-self: center;
   width: 50%;
@@ -406,9 +410,6 @@ html {
 }
 .navbar ul li:last-child a {
   color: #ec5242;
-}
-.navbar div a img {
-  width: 100%;
 }
 
 .active {
