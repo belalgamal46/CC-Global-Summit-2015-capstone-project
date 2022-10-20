@@ -90,12 +90,11 @@ npx eslint .
 ## Credits
 
 - The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
-- Project from [Microverse](https://bit.ly/MicroverseTN) html & css module.
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Technopreneur/issues).
+Feel free to check the [issues page](https://github.com/belalgamal46/CC-Global-Summit-2015-capstone-project/issues).
 
 ## Show your support
 
