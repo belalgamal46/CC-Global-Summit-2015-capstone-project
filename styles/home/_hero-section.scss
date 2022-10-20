@@ -91,6 +91,7 @@
 
   .message {
     width: 65%;
+
     p {
       font-size: 2rem;
     }
@@ -110,10 +111,12 @@
 @media only screen and (min-width: 1024px) {
   #hero-section {
     height: 86vh;
+
     @include flex-center(column);
 
     padding: 0;
   }
+
   .menu-icon-container {
     display: none;
   }

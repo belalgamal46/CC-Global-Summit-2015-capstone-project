@@ -91,9 +91,18 @@
       &:last-child {
         border: 4px solid $red;
         padding: 1rem;
+
         a {
           color: $red;
         }
+      }
+    }
+  }
+
+  div {
+    a {
+      img {
+        width: 100%;
       }
     }
   }
@@ -116,5 +125,35 @@
 
   .navbar {
     height: 10vh;
+
+    ul {
+      li {
+        transition: all 0.7s;
+
+        &:hover {
+          a {
+            color: $red;
+          }
+        }
+
+        &:last-child {
+          &:hover {
+            background-color: $red;
+
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    div {
+      transition: all 0.5s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
   }
 }

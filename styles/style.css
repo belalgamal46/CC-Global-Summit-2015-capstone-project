@@ -407,6 +407,9 @@ html {
 .navbar ul li:last-child a {
   color: #ec5242;
 }
+.navbar div a img {
+  width: 100%;
+}
 
 .active {
   color: #ec5242 !important;
@@ -425,6 +428,24 @@ html {
   }
   .navbar {
     height: 10vh;
+  }
+  .navbar ul li {
+    transition: all 0.7s;
+  }
+  .navbar ul li:hover a {
+    color: #ec5242;
+  }
+  .navbar ul li:last-child:hover {
+    background-color: #ec5242;
+  }
+  .navbar ul li:last-child:hover a {
+    color: white;
+  }
+  .navbar div {
+    transition: all 0.5s;
+  }
+  .navbar div:hover {
+    transform: scale(1.05);
   }
 }
 #partners-section {

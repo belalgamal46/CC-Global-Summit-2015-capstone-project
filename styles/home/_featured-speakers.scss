@@ -66,6 +66,7 @@
     h3 {
       font-size: 2.5rem;
     }
+
     p {
       font-size: 1.8rem;
     }
@@ -84,21 +85,27 @@
 
   .speaker-container {
     height: 100%;
+
     &:nth-child(2) {
       grid-column: 1 / 2;
     }
+
     &:nth-child(3) {
       grid-column: 2 / 3;
     }
+
     &:nth-child(4) {
       grid-column: 1 / 2;
     }
+
     &:nth-child(5) {
       grid-column: 2 / 3;
     }
+
     &:nth-child(6) {
       grid-column: 1 / 2;
     }
+
     &:last-child {
       grid-column: 2 / 3;
     }
