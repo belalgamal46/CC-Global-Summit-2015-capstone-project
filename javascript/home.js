@@ -4,6 +4,8 @@ const featuredSpeakers = document.querySelector('#featured-speakers');
 const menuIconContainer = document.querySelector('.menu-icon-container');
 const mobileNavbar = document.querySelector('.mobile-navbar');
 const closeButtonContaienr = document.querySelector('.close-button-contaienr');
+const navLinks = document.querySelectorAll('a');
+const activePage = window.location.href;
 
 featuredSpeakers.innerHTML = `
 <div class="featured-speakers-title">
@@ -43,3 +45,11 @@ const closeMobileMenu = () => {
 
 menuIconContainer.addEventListener('click', openMobileMenu);
 closeButtonContaienr.addEventListener('click', closeMobileMenu);
+
+navLinks.forEach((link) => {
+  if (link.href === activePage) {
+    link.classList.add('active');
+  } else {
+    link.classList.remove('active');
+  }
+});

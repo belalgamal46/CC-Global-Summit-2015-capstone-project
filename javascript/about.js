@@ -2,7 +2,7 @@ const menuIconContainer = document.querySelector('.menu-icon-container');
 const mobileNavbar = document.querySelector('.mobile-navbar');
 const closeButtonContaienr = document.querySelector('.close-button-contaienr');
 const activePage = window.location.href;
-const navLinks = document.querySelectorAll('.navbar ul li a');
+const navLinks = document.querySelectorAll('a');
 const previousGlobalSummitsImageContainer = document.querySelector(
   // eslint-disable-next-line comma-dangle
   '.previous-global-summits-image-container'
@@ -21,6 +21,8 @@ closeButtonContaienr.addEventListener('click', closeMobileMenu);
 navLinks.forEach((link) => {
   if (link.href === activePage) {
     link.classList.add('active');
+  } else {
+    link.classList.remove('active');
   }
 });
 
