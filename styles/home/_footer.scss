@@ -8,6 +8,7 @@ footer {
 
 .footer-image {
   width: 100%;
+  text-align: center;
 
   img {
     width: 100%;
@@ -18,4 +19,55 @@ footer {
   width: 100%;
   font-size: 1rem;
   font-weight: 400;
+}
+
+@media only screen and (min-width: 500px) {
+  footer {
+    width: 75%;
+    margin: auto;
+  }
+
+  .footer-image {
+    img {
+      width: 100%;
+    }
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    width: 70%;
+    margin: auto;
+  }
+
+  .footer-image {
+    img {
+      width: 70%;
+    }
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    width: 40%;
+    margin: auto;
+  }
+
+  .footer-image {
+    img {
+      width: 80%;
+    }
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
 }

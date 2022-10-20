@@ -1,10 +1,11 @@
 #logo-creation {
   text-align: center;
+  margin-top: 4rem;
 
   p {
     width: 80%;
     margin: auto;
-    margin-bottom: 4rem;
+    margin: 4rem auto;
     font-weight: 400;
     font-size: 1.3rem;
   }
@@ -14,6 +15,7 @@
   @include title-container();
 
   color: #000;
+  margin: 0;
 
   h5 {
     width: 62%;
@@ -27,5 +29,43 @@
 
   img {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .summit-logo {
+    img {
+      width: 80%;
+    }
+  }
+
+  #logo-creation {
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .summit-logo {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #logo-creation {
+    p {
+      font-size: 2rem;
+      width: 30%;
+      margin: 4rem auto;
+    }
+  }
+
+  .summit-logo {
+    img {
+      width: 30%;
+    }
   }
 }
