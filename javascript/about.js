@@ -28,21 +28,21 @@ Array.from(previousGlobalSummitsImageContainer).forEach((image) => {
   image.addEventListener('mouseover', (event) => {
     if (image.attributes.src.value === event.target.attributes.src.value) {
       const hoveredImage = `${
-        event.target.attributes.src.value.split('/')[2].split('.')[0]
+        event.target.attributes.src.value.split('/')[3].split('.')[0]
       }_hover.png`;
-      image.attributes.src.value = `../images/${hoveredImage}`;
+      image.attributes.src.value = `../images/about-page/${hoveredImage}`;
     }
   });
 
   image.addEventListener('mouseleave', (event) => {
     if (image.attributes.src.value === event.target.attributes.src.value) {
       const imagePath = event.target.attributes.src.value
-        .split('/')[2]
+        .split('/')[3]
         .split('_')[0];
       const imagePath2 = event.target.attributes.src.value
-        .split('/')[2]
+        .split('/')[3]
         .split('_')[1];
-      const joinedImagePath = `../images/${imagePath}_${imagePath2}.png`;
+      const joinedImagePath = `../images/about-page/${imagePath}_${imagePath2}.png`;
       image.attributes.src.value = joinedImagePath;
     }
   });

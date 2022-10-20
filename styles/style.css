@@ -11,7 +11,7 @@ html {
 }
 
 #hero-section {
-  background-image: url(../images/hero-bg.png);
+  background-image: url("../../images/backgrounds/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -124,7 +124,7 @@ html {
   justify-content: space-evenly;
   color: white;
   background-color: #272a31;
-  background-image: url("../images/pattern_bg.png");
+  background-image: url("../../images/icons/pattern_bg.png");
   row-gap: 2rem;
   padding: 2rem 0;
 }
