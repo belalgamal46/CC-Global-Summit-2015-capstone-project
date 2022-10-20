@@ -11,9 +11,7 @@ html {
 }
 
 #hero-section {
-
   background-image: url("../images/backgrounds/hero-bg.png");
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -31,8 +29,14 @@ html {
   margin: auto;
 }
 
-.hero-image img {
+.hero-image {
+  width: 94%;
+}
+.hero-image h1 {
   width: 100%;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ec5242;
 }
 
 .message {
@@ -64,6 +68,9 @@ html {
   .menu-icon-container #menu-icon {
     width: 70%;
   }
+  .hero-image h1 {
+    font-size: 6rem;
+  }
   .message p {
     font-size: 1.8rem;
   }
@@ -78,8 +85,11 @@ html {
   .menu-icon-container #menu-icon {
     width: 50%;
   }
-  .hero-image img {
-    width: 70%;
+  .hero-image {
+    width: 80%;
+  }
+  .hero-image h1 {
+    font-size: 8rem;
   }
   .message {
     width: 65%;
@@ -108,9 +118,6 @@ html {
   }
   .hero-container {
     width: 60%;
-  }
-  .hero-image img {
-    width: 65%;
   }
   .message {
     width: 55%;
@@ -433,15 +440,13 @@ html {
     height: 10vh;
   }
   .navbar ul li {
-    transition: all 0.7s;
+    transition: all 0.5s;
   }
   .navbar ul li:hover a {
     color: #ec5242;
   }
   .navbar ul li:last-child:hover {
     background-color: #ec5242;
-  }
-  .navbar ul li:last-child:hover a {
     color: white;
   }
   .navbar div {

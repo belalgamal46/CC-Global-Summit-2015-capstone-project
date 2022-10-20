@@ -19,8 +19,12 @@
 }
 
 .hero-image {
-  img {
+  width: 94%;
+  h1 {
     width: 100%;
+    font-size: 4rem;
+    font-weight: 900;
+    color: $red;
   }
 }
 
@@ -59,6 +63,12 @@
     }
   }
 
+  .hero-image {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+
   .message {
     p {
       font-size: 1.8rem;
@@ -84,8 +94,9 @@
   }
 
   .hero-image {
-    img {
-      width: 70%;
+    width: 80%;
+    h1 {
+      font-size: 8rem;
     }
   }
 
@@ -123,12 +134,6 @@
 
   .hero-container {
     width: 60%;
-  }
-
-  .hero-image {
-    img {
-      width: 65%;
-    }
   }
 
   .message {

@@ -130,7 +130,7 @@
 
     ul {
       li {
-        transition: all 0.7s;
+        transition: all 0.5s;
 
         &:hover {
           a {
@@ -141,10 +141,7 @@
         &:last-child {
           &:hover {
             background-color: $red;
-
-            a {
-              color: white;
-            }
+            color: white;
           }
         }
       }
