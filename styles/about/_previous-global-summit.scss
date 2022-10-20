@@ -1,0 +1,28 @@
+.previous-global-summits {
+  height: 75vh;
+  text-align: center;
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.previous-global-summits-title {
+  @include title-container();
+
+  color: #000;
+}
+
+.previous-global-summits-image-container {
+  width: 80%;
+  margin: auto;
+
+  img {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}

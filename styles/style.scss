@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@import './global-style';
+@import './home/hero-section';
+@import './home/main-program';
+@import './home/navbar';
+@import './home/partners';
+@import './home/footer';
+@import './home/featured-speakers';

@@ -1,0 +1,23 @@
+#partners-section {
+  background-color: $dark-grey;
+}
+
+.partners-title {
+  @include title-container();
+
+  margin: 0;
+  padding: 2rem;
+}
+
+.images-container {
+  @include flex-center(row);
+
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  height: 30vh;
+
+  img {
+    width: 25%;
+    padding: 0.3rem;
+  }
+}

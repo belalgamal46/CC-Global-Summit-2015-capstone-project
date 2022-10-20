@@ -1,0 +1,31 @@
+#logo-creation {
+  text-align: center;
+
+  p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+}
+
+.logo-creation-title {
+  @include title-container();
+
+  color: #000;
+
+  h5 {
+    width: 62%;
+    margin: auto;
+  }
+}
+
+.summit-logo {
+  width: 90%;
+  margin: auto;
+
+  img {
+    width: 100%;
+  }
+}
