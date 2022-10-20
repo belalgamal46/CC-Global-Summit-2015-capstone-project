@@ -17,6 +17,9 @@
 
 [Live Demo Link](https://belalgamal46.github.io/CC-Global-Summit-2015-capstone-project/)
 
+## Walkthrough Website
+[Walkthrough](https://www.veed.io/view/c384677b-5c67-44ba-a561-272daf22361b)
+
 ## Getting Started
 
 **To get a local copy of this project up and running on your local machine follow the steps below.**
