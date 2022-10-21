@@ -1,0 +1,15 @@
+@import '../global-style';
+@import './about-hero';
+@import './logo-creation';
+
+hr {
+  height: 1px;
+  background-color: $light-grey;
+  border: none;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+@import './previous-global-summit';
+@import './partners';
+@import './footer';

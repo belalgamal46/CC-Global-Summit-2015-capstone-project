@@ -1,0 +1,52 @@
+$dark-grey: #272a31;
+$red: #ec5242;
+$red-hover: #d14434;
+$light-grey: #d3d3d3;
+$rgba-light-grey: #d3d3d310;
+
+@mixin flex-center($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin rgba-color($color, $opacity) {
+  color: $color;
+  opacity: $opacity;
+}
+
+@mixin title-container {
+  @include flex-center(column);
+
+  width: 100%;
+  margin: 2rem 0;
+  color: white;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  span {
+    width: 10%;
+    height: 2rem;
+    border-bottom: 0.1px solid $red;
+  }
+
+  @media only screen and (min-width: 500px) {
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    span {
+      width: 7%;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    span {
+      width: 2.5%;
+    }
+  }
+}

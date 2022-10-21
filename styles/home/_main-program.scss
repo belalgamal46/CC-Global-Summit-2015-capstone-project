@@ -1,0 +1,176 @@
+#main-program {
+  @include flex-center(column);
+
+  justify-content: space-evenly;
+  color: white;
+  background-color: $dark-grey;
+  background-image: url('../images/icons/pattern_bg.png');
+  row-gap: 2rem;
+  padding: 2rem 0;
+}
+
+.main-program-title {
+  @include title-container();
+}
+
+.button {
+  @include flex-center(column);
+
+  width: 100%;
+  margin: 3rem;
+  padding: 0 3rem;
+
+  button {
+    background-color: $red;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2.5rem 4rem;
+
+    &:active {
+      background-color: $red-hover;
+    }
+  }
+}
+
+.cards-container {
+  width: 100%;
+  padding: 0 1rem;
+
+  @include flex-center(column);
+
+  row-gap: 1rem;
+
+  article {
+    width: 100%;
+    display: grid;
+    background-color: $rgba-light-grey;
+    align-items: center;
+    column-gap: 1.5rem;
+    grid-template-columns: 0.5fr 1fr 2fr;
+    padding: 1rem;
+
+    h3 {
+      font-size: 1.6rem;
+      flex-grow: 2;
+      color: $red;
+    }
+
+    p {
+      flex-grow: 1;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .cards-container {
+    article {
+      h3 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+        width: 95%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 775px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+
+    article {
+      @include flex-center(column);
+
+      text-align: center;
+      row-gap: 1rem;
+      height: 100%;
+
+      h3 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+        width: 95%;
+      }
+
+      &:last-child {
+        grid-column: 1 / 3;
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #main-program {
+    height: 70vh;
+  }
+
+  .cards-container {
+    @include flex-center(row);
+
+    width: 70%;
+    column-gap: 1rem;
+    row-gap: 0;
+    margin: 0;
+
+    article {
+      @include flex-center(column);
+
+      text-align: center;
+      row-gap: 1rem;
+      padding: 2rem;
+      margin: 0;
+      transition: all 0.2s;
+      cursor: pointer;
+
+      h3 {
+        font-size: 2rem;
+        flex-grow: 1;
+      }
+
+      p {
+        font-size: 1.8rem;
+        width: 100%;
+        flex-grow: 2;
+      }
+
+      &:last-child {
+        width: 100%;
+        margin: 0;
+      }
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .button {
+    button {
+      font-weight: 700;
+      background-color: transparent;
+      text-decoration: underline;
+      cursor: pointer;
+      border: none;
+
+      &:hover {
+        background-color: transparent;
+        color: $red;
+      }
+    }
+  }
+}

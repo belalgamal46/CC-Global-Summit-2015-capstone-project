@@ -1,0 +1,146 @@
+#hero-section {
+  background-image: url('../images/backgrounds/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 3.5% 5% 15% 5%;
+}
+
+.menu-icon-container {
+  width: 13%;
+  text-align: center;
+  margin-bottom: 10%;
+
+  #menu-icon {
+    width: 90%;
+    padding: 0.6rem;
+    margin: auto;
+  }
+}
+
+.hero-image {
+  width: 94%;
+
+  h1 {
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 900;
+    color: $red;
+  }
+}
+
+.message {
+  background-color: $light-grey;
+  border: 4px solid white;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+
+  p {
+    font-size: 1.3rem;
+    line-height: 150%;
+  }
+}
+
+.location {
+  color: $dark-grey;
+
+  h2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .menu-icon-container {
+    #menu-icon {
+      width: 70%;
+    }
+  }
+
+  .hero-image {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+
+  .message {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  .location {
+    h2 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 2.1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-icon-container {
+    #menu-icon {
+      width: 50%;
+    }
+  }
+
+  .hero-image {
+    width: 80%;
+
+    h1 {
+      font-size: 8rem;
+    }
+  }
+
+  .message {
+    width: 65%;
+
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  .location {
+    h2 {
+      font-size: 4.5rem;
+    }
+
+    p {
+      font-size: 2.3rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #hero-section {
+    height: 86vh;
+
+    @include flex-center(column);
+
+    padding: 0;
+  }
+
+  .menu-icon-container {
+    display: none;
+  }
+
+  .hero-container {
+    width: 60%;
+  }
+
+  .message {
+    width: 55%;
+    margin-top: 2.5rem;
+    margin-bottom: 3.2rem;
+  }
+}

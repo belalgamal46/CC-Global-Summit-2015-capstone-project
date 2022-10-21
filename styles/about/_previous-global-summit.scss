@@ -1,0 +1,64 @@
+.previous-global-summits {
+  margin-bottom: 5rem;
+  text-align: center;
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.previous-global-summits-title {
+  @include title-container();
+
+  color: #000;
+}
+
+.previous-global-summits-image-container {
+  width: 80%;
+  margin: auto;
+
+  img {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .previous-global-summits {
+    p {
+      width: 70%;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .previous-global-summits-image-container {
+    width: 54%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .previous-global-summits {
+    p {
+      width: 30%;
+      font-size: 2rem;
+      margin-bottom: 10rem;
+    }
+  }
+
+  .previous-global-summits-image-container {
+    @include flex-center(row);
+
+    column-gap: 2rem;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}
