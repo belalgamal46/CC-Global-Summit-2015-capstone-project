@@ -9,7 +9,7 @@ const activePage = window.location.href;
 
 featuredSpeakers.innerHTML = `
 <div class="featured-speakers-title">
-  <h5>Featured Speakers</h5>
+  <h2>Featured Speakers</h2>
   <span></span>
 </div>
 `;

@@ -147,7 +147,7 @@ html {
   margin: 2rem 0;
   color: white;
 }
-.main-program-title h5 {
+.main-program-title h2 {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -157,7 +157,7 @@ html {
   border-bottom: 0.1px solid #ec5242;
 }
 @media only screen and (min-width: 500px) {
-  .main-program-title h5 {
+  .main-program-title h2 {
     font-size: 2.5rem;
   }
   .main-program-title span {
@@ -210,7 +210,7 @@ html {
   grid-template-columns: 0.5fr 1fr 2fr;
   padding: 1rem;
 }
-.cards-container article h2 {
+.cards-container article h3 {
   font-size: 1.6rem;
   flex-grow: 2;
   color: #ec5242;
@@ -221,7 +221,7 @@ html {
 }
 
 @media only screen and (min-width: 500px) {
-  .cards-container article h2 {
+  .cards-container article h3 {
     font-size: 1.8rem;
   }
   .cards-container article p {
@@ -248,7 +248,7 @@ html {
     row-gap: 1rem;
     height: 100%;
   }
-  .cards-container article h2 {
+  .cards-container article h3 {
     font-size: 1.8rem;
   }
   .cards-container article p {
@@ -288,7 +288,7 @@ html {
     transition: all 0.2s;
     cursor: pointer;
   }
-  .cards-container article h2 {
+  .cards-container article h3 {
     font-size: 2rem;
     flex-grow: 1;
   }
@@ -472,7 +472,7 @@ html {
   margin: 0;
   height: 12vh;
 }
-.partners-title h5 {
+.partners-title h2 {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -482,7 +482,7 @@ html {
   border-bottom: 0.1px solid #ec5242;
 }
 @media only screen and (min-width: 500px) {
-  .partners-title h5 {
+  .partners-title h2 {
     font-size: 2.5rem;
   }
   .partners-title span {
@@ -632,7 +632,7 @@ html {
   color: #000;
   margin: 0;
 }
-.featured-speakers-title h5 {
+.featured-speakers-title h2 {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -642,7 +642,7 @@ html {
   border-bottom: 0.1px solid #ec5242;
 }
 @media only screen and (min-width: 500px) {
-  .featured-speakers-title h5 {
+  .featured-speakers-title h2 {
     font-size: 2.5rem;
   }
   .featured-speakers-title span {

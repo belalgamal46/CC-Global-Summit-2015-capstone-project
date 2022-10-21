@@ -23,7 +23,7 @@ $rgba-light-grey: #d3d3d310;
   margin: 2rem 0;
   color: white;
 
-  h5 {
+  h2 {
     font-size: 2rem;
     font-weight: 700;
   }
@@ -35,7 +35,7 @@ $rgba-light-grey: #d3d3d310;
   }
 
   @media only screen and (min-width: 500px) {
-    h5 {
+    h2 {
       font-size: 2.5rem;
     }
 
