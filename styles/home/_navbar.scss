@@ -121,14 +121,12 @@
 
   .navbar-container {
     @include flex-center(row);
-
-    height: 5vh;
   }
 
   .navbar {
-    height: 10vh;
-
     ul {
+      column-gap: 3rem;
+      width: auto;
       li {
         transition: all 0.5s;
 
@@ -139,6 +137,7 @@
         }
 
         &:last-child {
+          width: 100%;
           &:hover {
             background-color: $red;
             color: white;

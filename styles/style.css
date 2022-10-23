@@ -34,7 +34,7 @@ html {
 }
 .hero-image h1 {
   width: 100%;
-  font-size: 4rem;
+  font-size: calc(4rem + 1vw);
   font-weight: 900;
   color: #ec5242;
 }
@@ -68,9 +68,6 @@ html {
   .menu-icon-container #menu-icon {
     width: 70%;
   }
-  .hero-image h1 {
-    font-size: 6rem;
-  }
   .message p {
     font-size: 1.8rem;
   }
@@ -87,9 +84,6 @@ html {
   }
   .hero-image {
     width: 80%;
-  }
-  .hero-image h1 {
-    font-size: 8rem;
   }
   .message {
     width: 65%;
@@ -434,16 +428,20 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 5vh;
   }
-  .navbar {
-    height: 10vh;
+  .navbar ul {
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+    width: auto;
   }
   .navbar ul li {
     transition: all 0.5s;
   }
   .navbar ul li:hover a {
     color: #ec5242;
+  }
+  .navbar ul li:last-child {
+    width: 100%;
   }
   .navbar ul li:last-child:hover {
     background-color: #ec5242;

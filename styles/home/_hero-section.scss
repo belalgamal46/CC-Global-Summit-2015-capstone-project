@@ -23,7 +23,7 @@
 
   h1 {
     width: 100%;
-    font-size: 4rem;
+    font-size: calc(4rem + 1vw);
     font-weight: 900;
     color: $red;
   }
@@ -64,12 +64,6 @@
     }
   }
 
-  .hero-image {
-    h1 {
-      font-size: 6rem;
-    }
-  }
-
   .message {
     p {
       font-size: 1.8rem;
@@ -96,10 +90,6 @@
 
   .hero-image {
     width: 80%;
-
-    h1 {
-      font-size: 8rem;
-    }
   }
 
   .message {

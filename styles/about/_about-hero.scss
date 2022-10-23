@@ -6,13 +6,13 @@
   color: $red;
 
   h2 {
-    font-size: 2.5rem;
+    font-size: calc(2.5rem + 1vw);
     font-weight: 400;
     margin-bottom: 1.5rem;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: calc(3rem + 1vw);
     font-weight: 900;
   }
 }
@@ -25,7 +25,7 @@
 }
 
 .contact {
-  font-size: 1.3rem;
+  font-size: calc(0.3rem + 0.8vw);
 
   p {
     width: 90%;
@@ -40,37 +40,16 @@
 }
 
 @media only screen and (min-width: 500px) {
-  .hero-title {
-    h2 {
-      font-size: 3rem;
-    }
-
-    h1 {
-      font-size: 4rem;
-    }
-  }
-
   .message {
     p {
       font-size: 2rem;
-    }
-  }
-
-  .contact {
-    p {
-      font-size: 1.5rem;
     }
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero-title {
-    h2 {
-      font-size: 3rem;
-    }
-
     h1 {
-      font-size: 5rem;
       width: 78%;
       margin: auto;
     }
@@ -80,39 +59,22 @@
     width: 80%;
     margin: 4rem auto;
   }
-
-  .contact {
-    p {
-      font-size: 1.8rem;
-    }
-  }
 }
 
 @media only screen and (min-width: 1024px) {
   .hero-title {
-    h2 {
-      font-size: 4rem;
-    }
-
     h1 {
-      font-size: 6.5rem;
       width: 60%;
       margin: auto;
     }
   }
 
   .message {
-    width: 40%;
+    width: 50%;
     margin: 4rem auto;
 
     p {
       font-size: 2rem;
-    }
-  }
-
-  .contact {
-    p {
-      font-size: 1.8rem;
     }
   }
 }
